@@ -89,7 +89,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-'''
+"""
 Grafo completo (todos los nodos están conectados entre sí)
 A B 1
 A C 2
@@ -124,4 +124,4 @@ C D 2
 E F 3
 B C 4
 fin
-'''
+"""
