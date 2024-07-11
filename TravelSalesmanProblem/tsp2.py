@@ -103,6 +103,30 @@ C E 9
 D E 10
 fin
 
+A B 4
+A C 2
+A D 6
+A E 3
+B C 1
+B D 5
+B E 7
+C D 8
+C E 10
+D E 9
+fin
+
+A B 5
+A C 3
+A D 2
+A E 4
+B C 7
+B D 1
+B E 6
+C D 9
+C E 8
+D E 10
+fin
+
 Grafo lineal
 A B 1
 B C 2
