@@ -5,8 +5,6 @@ import networkx as nx
 
 def viterbi(obs, states, start_p, trans_p, emit_p):
     """
-    Ejecuta el algoritmo de Viterbi.
-
     Args:
     obs: Lista de observaciones.
     states: Lista de posibles estados.

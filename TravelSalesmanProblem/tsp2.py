@@ -54,9 +54,9 @@ def show_graph(graph, route):
         # Draw the nodes of the optimal route in red
         nx.draw_networkx_nodes(graph, pos, nodelist=route_nodes, node_color='r')
 
-        # Draw the edges of the optimal route with arrows in red
-        nx.draw_networkx_edges(graph, pos, edgelist=route_edges, edge_color='b', arrows=True, width=2)
-
+        # Draw the edges of the optimal route with arrows in blue
+        nx.draw_networkx_edges(graph, pos, edgelist=route_edges, edge_color='b', arrows=True, width=2, arrowsize=20, arrowstyle='-|>', style='solid')
+    plt.savefig('tsp.png')
     plt.show()
 
 
